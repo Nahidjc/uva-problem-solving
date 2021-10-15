@@ -6,7 +6,6 @@ while i<n:
     j=0
     while j<m:
         instruct= str(input())
-
         removeSpace=instruct.lstrip()
         inputText.append(removeSpace)
         j+=1
